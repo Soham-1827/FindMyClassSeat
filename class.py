@@ -7,9 +7,9 @@ from email.mime.multipart import MIMEMultipart
 
 
 def send_email(vacant_seats, class_number):
-    email = '1827albert@gmail.com' #Don't change this email address
-    password = 'ENTER YOUR PASSKEY'
-    send_to_email = 'ENTER YOUR EMAIL'
+    email = 'PRIMARY EMAIL'#EMAIL WILL SENT FROM THIS ADDRESS
+    password = 'ENTER YOUR APP PASSWORD' #APP PASSWORD FOR THE ABOVE EMAIL
+    send_to_email = 'ENTER YOUR EMAIL' #INFO ABOUT SEATS WILL BE SENT TO THIS EMAIL ADDRESS. (Both email addresses can be same).
     subject = 'Class Vacancy Notification'
     message = f"Vacant seats for class {class_number}: {vacant_seats}"
 
